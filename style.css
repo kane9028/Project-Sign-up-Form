@@ -49,3 +49,28 @@
   flex-direction: column;
 }
 
+.submit button {
+  background-color: #596D48;
+  color: white;
+}
+
+input {
+  border: 2px solid #E5E7EB;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:focus {
+  box-shadow: 2px 2px 3px black;
+  background-color: rgb(179, 207, 252);
+}
+
